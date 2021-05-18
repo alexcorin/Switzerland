@@ -1,4 +1,10 @@
 ﻿*{
-    margin:0;
+    margin:0;   
     padding:0;
+}
+
+#divNav {
+    width: 100%;
+    height: 15vh;
+    background-color: rebeccapurple;
 }
