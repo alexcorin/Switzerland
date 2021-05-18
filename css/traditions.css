@@ -21,3 +21,11 @@ a:visited{
 a:link {
     color:darkred;
 }
+
+.paragraph{
+    width:80%;
+    height:50vh;
+    background-color:aqua;
+    margin:auto;
+    color:red;
+}
