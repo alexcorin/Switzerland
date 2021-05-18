@@ -3,6 +3,12 @@
     padding:0;
 }
 
+html, body {
+    max-width: 100%;
+    overflow-x: hidden;
+}
+
+
 .divNav{
     background-color:white;
     border-bottom:solid red;
