@@ -13,7 +13,7 @@
     font-size:1em;
 }
 
-a:visited, a:link{
+a:visited{
     text-decoration:none;
     color:red;
 }
