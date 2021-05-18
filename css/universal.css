@@ -4,15 +4,24 @@
 }
 
 .divNav{
-
+    background-color:white;
+    border-bottom:solid red;
+    border-width:1vh;
 }
 
 .nav{
-
+    margin-left:7vh;
+    padding-top:4vh;
+    padding-bottom:4vh;
 }
 
 .navLinks{
-
+    font-weight:bold;
+    font-family:'Copperplate Gothic';
+    font-size:xx-large;
+    color:black;
+    text-decoration:none;
+    margin:1vh;
 }
 
 .textColor{
