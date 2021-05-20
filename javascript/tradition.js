@@ -7,5 +7,5 @@ function picTimer() {
 
 function RandomPic() {
 	var random = Math.floor(Math.random() * pictures.length);
-	document.getElementById("id").src = pictures[random];
+	document.getElementById("pic").src = pictures[random];
 }
