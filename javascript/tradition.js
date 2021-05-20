@@ -1,5 +1,5 @@
 const image = document.getElementById("pic");
-let images = ["devilbridge.jpeg", "matterhorn.jpeg"], i = 0;
+let images = ["css/devilbridge.jpeg", "css/matterhorn.jpeg"], i = 0;
 
 function RandomPic() {
     i < images.length ? i += 1 : i = 0;
