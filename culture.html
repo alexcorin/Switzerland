@@ -6,9 +6,17 @@
         <link rel="stylesheet" href="css/culture.css">
         <link rel="stylesheet" href="css/universal.css">
         <script>
-            function SelectCulture(){
-                
+            function SelectCulture(){                
+  
+            var backgrounds = ["css/img2/musik1.jpg", "css/img2/watch1.jpg"];
+
+            var imgShown = document.body.style.backgroundImage;
+            var newNumber = Math.floor(Math.random()*backgrounds.length);
+            document.body.style.background = 'url('+backgrounds[newNumber]+')';
+
+
             }
+            window.onload = changeBg;
         </script>
     </head>
     <body onload="SelectCulture()">
