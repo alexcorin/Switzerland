@@ -7,16 +7,25 @@ a:link {
     color:darkred;
 }
 
-.paragraph{
-    width:80%;
-    height:100%;
-    background-color:aqua;
-    margin:auto;
-    color:red;
+.paragraph {
+    width: 80%;
+    height: 100%;
+    /*background-color:palegreen;*/
+    margin: auto;
+    color: red;
 }
 
 #Traditions {
     background-color: red;
     padding-bottom: 100%;
     padding-top: 100%;
+}
+
+#box{
+    margin:auto;
+    width:100%;
+    height:100%;
+    border:1px solid red;
+    float:left;
+    background-color:black;
 }
