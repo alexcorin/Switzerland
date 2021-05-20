@@ -1,5 +1,7 @@
 body{
-    background-image: url("");
+    background-image: url("img2/watch1.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
 }
 
 #Culture {
