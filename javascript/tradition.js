@@ -1,9 +1,8 @@
-
+const image = document.getElementById("pic");
+let images = ["devilbridge.jpeg", "matterhorn.jpeg"], i = 0;
 
 function RandomPic() {
-	var pictures = ["matterhorn.jpeg", "devilbridge.jpeg"];
-	var random = Math.floor(Math.random() * pictures.length);
-	document.getElementById("pic").src = pictures[random];
+    i < images.length ? i += 1 : i = 0;
+    image.src = images[i];
 }
-
 setInterval(RandomPic, 3000);
