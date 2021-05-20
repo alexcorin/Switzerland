@@ -3,11 +3,12 @@
     width:100%;
 }
 #indexTitle{
-    color:white;
+    color:black;
 }
 #indexFront{
     width:100%;
 }
 #Home{
     background-color:red;
+    padding-top:100%;
 }
