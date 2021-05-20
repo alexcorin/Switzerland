@@ -10,22 +10,13 @@ a:link {
 .paragraph {
     width: 80%;
     height: 100%;
-    /*background-color:palegreen;*/
+    background-color:palegreen;
     margin: auto;
-    color: red;
+    color: dodgerblue;
 }
 
 #Traditions {
     background-color: red;
     padding-bottom: 100%;
     padding-top: 100%;
-}
-
-#box{
-    margin:auto;
-    width:100%;
-    height:100%;
-    border:1px solid red;
-    float:left;
-    background-color:black;
 }
