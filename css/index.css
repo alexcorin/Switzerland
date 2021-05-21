@@ -4,15 +4,19 @@
     background-repeat:no-repeat;
 }
 
-#frontImage{
-    height:auto;
-    width:100%;
-}
-#indexTitle{
-    color:black;
-}
 #indexFront{
-    width:100%;
+    width:75%;
+    height:200px;
+    margin:auto;
+    margin-top:150px;
+}
+
+#indexTitle {
+    color: white;
+    font-weight: bold;
+    font-family: 'Copperplate Gothic';
+    font-size: 100px;
+    text-decoration: none;
 }
 #Sights {
     background-color: white;
