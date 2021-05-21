@@ -1,4 +1,10 @@
-﻿#frontImage{
+﻿body {
+    background-image: url("img/frontImage.jpg");
+    background-size:cover;
+    background-repeat:no-repeat;
+}
+
+#frontImage{
     height:auto;
     width:100%;
 }
