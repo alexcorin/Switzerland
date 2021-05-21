@@ -1,7 +1,28 @@
 ﻿#Sights {
     background-color: red;
     padding-top: 100%;
-    padding-bottom: 50px;
+    padding-bottom: 40px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+#Home {
+    background-color:white;
+    padding-top: 100%;
+    padding-bottom: 35px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+#Traditions {
+    background-color: white;
+    padding-top: 100%;
+    padding-bottom: 35px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+#Culture {
+    background-color: white;
+    padding-top: 100%;
+    padding-bottom: 35px;
     padding-left: 10px;
     padding-right: 10px;
 }
