@@ -15,8 +15,7 @@ html, body {
     background-color:white;
     border-bottom:solid red;
     border-bottom-width:10px;
-    display: inline-block;
-    vertical-align: middle;
+    display:inline-block;
 }
 
 .navSeperator {
@@ -28,10 +27,10 @@ html, body {
     display: inline;
 }
 .nav{
-    margin-left:120px;
+    margin-top:25px;
+    margin-left:100px;
     height:50px;
     width:1000px;
-    background-color:grey;
 }
 
 .navLinks{

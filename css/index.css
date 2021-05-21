@@ -11,4 +11,7 @@
 #Home{
     background-color:red;
     padding-top:100%;
+    padding-bottom:50px;
+    padding-left:10px;
+    padding-right:10px;
 }
