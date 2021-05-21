@@ -46,3 +46,36 @@ a:link {
     padding-left: 10px;
     padding-right: 10px;
 }
+
+@keyframes fadeInImage{
+    0% {
+        opacity: 0
+    }
+
+    50% {
+        opacity: 0,5
+    }
+
+    100% {
+        opacity: 1
+    }
+}
+
+@-webkit-keyframes fadeInImage{
+    0% {
+        opacity: 0
+    }
+
+    50% {
+        opacity: 0,5
+    }
+
+    100% {
+        opacity: 1
+    }
+}
+
+.fadeIn{
+    animation:fadeInImage linear 3s;
+    -webkit-animation:fadeInImage linear 3s;
+}
