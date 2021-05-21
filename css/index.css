@@ -1,15 +1,14 @@
 ﻿#frontImage{
-    height:100vh;
-    width:100vw;
+    height:auto;
+    width:100%;
 }
 #indexTitle{
-    color:white;
+    color:black;
 }
 #indexFront{
-    width:75vh;
+    width:100%;
 }
-#Home {
-    background-color: red;
-    padding-bottom: 100%;
-    padding-top: 100%;
+#Home{
+    background-color:red;
+    padding-top:100%;
 }

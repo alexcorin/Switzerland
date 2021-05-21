@@ -1,0 +1,22 @@
+﻿
+#text{
+    font-size:1em;
+}
+
+a:link {
+    color:darkred;
+}
+
+.paragraph {
+    width: 80%;
+    height: 100%;
+    background-color:palegreen;
+    margin: auto;
+    color: dodgerblue;
+}
+
+#Traditions {
+    background-color: red;
+    padding-bottom: 100%;
+    padding-top: 100%;
+}
