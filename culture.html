@@ -5,20 +5,20 @@
 
         <link rel="stylesheet" href="css/culture.css">
         <link rel="stylesheet" href="css/universal.css">
+
         <script>
             function SelectCulture(){  
-                var backgrounds = ["css/img2/musik1.jpg", "css/img2/watch1.jpg", "css/img2/food1.jpg"];
-
+                var backgrounds = ["css/img2/musik1.jpg", "css/img2/watch1.jpg", "css/img2/food1.jpeg"];
                 var imgShown = document.body.style.backgroundImage;
                 var newNumber = Math.floor(Math.random()*(backgrounds.length));
                 document.body.style.background = 'url('+backgrounds[newNumber]+')';
             }
-
             window.onload = changeBg;
-
         </script>
+
     </head>
     <body onload="SelectCulture()">
+
         <div class="divNav">
             <nav class="nav">
                 <a href="index.html" id="Home" class="navLinks">| Home | </a>
@@ -27,6 +27,7 @@
                 <a href="sights.html" id="Sights" class="navLinks"> Sights |</a>
             </nav>
         </div>
+
         <div id="texts">
 
             <div id="watches">
