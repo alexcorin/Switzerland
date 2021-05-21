@@ -9,3 +9,4 @@ function RandomPic() {
     RandomPic();
     setInterval(RandomPic, 3000);
 }());
+
