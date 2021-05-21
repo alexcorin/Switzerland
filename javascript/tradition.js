@@ -1,4 +1,4 @@
-let images = ["img/matterhorn.jpeg", "img/devilbridge.jpeg"];
+/*let images = ["img/matterhorn.jpeg", "img/devilbridge.jpeg"];
 
 function RandomPic() {
     var random = Math.floor(Math.random() * images.length);
@@ -9,4 +9,4 @@ function RandomPic() {
     RandomPic();
     setInterval(RandomPic, 3000);
 }());
-
+*/
