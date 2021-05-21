@@ -51,48 +51,4 @@ a:link {
     padding-left: 10px;
     padding-right: 10px;
 }
-@keyframes fadeInAndOut {
-    0% {
-        background-image: url("css/img2/food1.jpeg");
-            background-size:contain;
-    }
 
-    10% {
-        background-image: url("css/img2/food2.jpg");
-        background-size: contain;
-    }
-
-    20% {
-        background-image: url("css/img2/frontImage.jpg");
-        background-size: contain;
-    }
-
-    30% {
-        background-image: url("css/img2/musik1.jpg");
-        background-size: contain;
-    }
-
-    40% {
-        background-image: url("css/img2/watch1.jpg");
-        background-size: contain;
-    }
-
-    50% {
-        background-image: url("img/bild.jpg");
-        background-size: contain;
-    }
-
-    100% {
-        background-image: url("img/devilbridge.jpeg");
-        background-size: contain;
-    }
-}
-
-.firstImage {
-    background-image: url("img/witch.jpeg"), url("css/img2/food1.jpeg"),url("css/img2/food2.jpg"),url("img/devilbridge.jpeg"),url("img/bild.jpg"),url("css/img2/watch1.jpg"),url("css/img2/musik1.jpg"),url("css/img2/frontImage.jpg"),url("css/img2/food2.jpg");
-    display: none;
-}
-
-.allImages{
-    animation:fadeInAndOut 10s ease-in-out infinite;
-}
