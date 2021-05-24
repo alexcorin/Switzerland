@@ -28,6 +28,11 @@ body{
     padding-right:10px;
 }
 
+#bildSaken{
+    margin-bottom: 0;
+}
+
+
 #Sights{
     background-color: white;
     padding-top: 100%;
@@ -43,7 +48,6 @@ body{
     background: rgba(255, 255, 255, 0.9);
     border:solid red 2.5px;
     height:700px;
-    border-top:0px;
 
 
 }
