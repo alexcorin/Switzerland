@@ -1,6 +1,6 @@
 ﻿body {
     background-image: url("img2/frontImage.jpg");
-    background-size:cover;
+    background-size:contain;
     background-repeat:no-repeat;
 }
 

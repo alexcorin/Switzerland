@@ -31,8 +31,21 @@
     padding-right: 10px;
 }
 #page{
-    width:70%;
+    width:65%;
     height:2000px;
     margin:auto;
+    padding:40px;
     background-color:white;
+}
+#matterhorn{
+    width:400px;
+    height:auto;
+}
+#bernina {
+    width: 400px;
+    height: auto;
+}
+#rheinfall {
+    width: 400px;
+    height: auto;
 }
