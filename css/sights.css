@@ -31,8 +31,45 @@
     padding-right: 10px;
 }
 #page{
-    width:70%;
+    width:65%;
     height:2000px;
     margin:auto;
+    padding:40px;
     background-color:white;
+}
+.matterhorn{
+    float:right;
+    width:400px;
+    height:auto;
+}
+.bernina {
+    float:left;
+    width: 400px;
+    height: auto;
+}
+.rheinfall {
+    float:right;
+    width: 400px;
+    height: auto;
+}
+.matterhornText {
+    float: left;
+    font-family: 'Copperplate Gothic';
+    font-size: large;
+    color: black;
+    text-decoration: none;
+}
+.berninaText {
+    float: right;
+    font-family: 'Copperplate Gothic';
+    font-size: large;
+    color: black;
+    text-decoration: none;
+}
+.rheinText {
+    float: left;
+    font-family: 'Copperplate Gothic';
+    font-size: large;
+    color: black;
+    text-decoration: none;
 }
