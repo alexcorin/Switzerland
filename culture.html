@@ -8,6 +8,7 @@
 
     </head>
     <body onload="SelectCulture()">
+        <script src="javascript/culture.js"></script>
 
         <header class="header">
             <nav class="nav" role="navigation">
@@ -24,7 +25,6 @@
         </header>
 
         <div id="texts">
-
             <div id="watches">
                 <p>Methionylalanylthreonylserylarginylglycylalanylserylarginylcysteinylproly-
                     larginylaspartylisoleucylalanylasparaginylvalylmethionylglutaminylarginyl-
@@ -67,26 +67,14 @@
                     ylalanylleucylvalyllysylglutaminylseryltryptophylaspartylarginylvalylthre-
                     onylserylarginylleucylphenylal</p>
             </div>
-            <div id="music">
-    
-            </div>
+
             <div id="food">
     
             </div>
+
+            <div id="sports">
+    
+            </div>
         </div>
-        
-        <script>
-            function SelectCulture(){  
-                var backgrounds = ["css/img2/musik1.jpg", "css/img2/watch1.jpg", "css/img2/food1.jpeg"];
-                var imgShown = document.body.style.backgroundImage;
-                var newNumber = Math.floor(Math.random()*(backgrounds.length));
-                document.body.style.background = 'url('+backgrounds[newNumber]+')';
-            }
-            window.onload = changeBg;
-            (function timer() {
-                SelectCulture();
-                setInterval(SelectCulture, 3000);
-            }());
-        </script>
     </body>
 </html>
