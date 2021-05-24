@@ -1,4 +1,10 @@
-﻿
+﻿body{
+    background:url(/img/matterhorn.jpeg);
+    background-size:contain;
+    background-repeat:no-repeat;
+    animation:fadeInAndOut 10s ease-in-out infinite;
+}
+
 #text{
     font-size:1em;
 }
@@ -46,3 +52,25 @@ a:link {
     padding-left: 10px;
     padding-right: 10px;
 }
+
+@keyframes fadeInAndOut{
+    33% {
+        background: url(/img/devilbridge.jpeg);
+        background-size:contain;
+    }
+    66% {
+        background: url(/img/witch.jpeg);
+        background-size: contain;
+    }
+    80% {
+        background: url(/img/bild.jpeg);
+        background-size: contain;
+    }
+    100% {
+        background: url(/img.matterhorn.jpeg);
+        background-size: contain;
+    }
+}
+
+
+
