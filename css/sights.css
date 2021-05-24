@@ -37,20 +37,20 @@
     padding:40px;
     background-color:white;
 }
-.matterhorn{
-    float:right;
-    width:400px;
-    height:auto;
+.matterhorn {
+    float: right;
+    height: 200px;
+    width: 35%;
 }
 .bernina {
-    float:left;
-    width: 400px;
-    height: auto;
+    float: left;
+    height: 200px;
+    width: 35%;
 }
 .rheinfall {
-    float:right;
-    width: 400px;
-    height: auto;
+    float: right;
+    height: 200px;
+    width: 35%;
 }
 .matterhornText {
     float: left;
@@ -58,6 +58,8 @@
     font-size: large;
     color: black;
     text-decoration: none;
+    width: 60%;
+    margin: 10px;
 }
 .berninaText {
     float: right;
@@ -65,6 +67,8 @@
     font-size: large;
     color: black;
     text-decoration: none;
+    width: 60%;
+    margin: 10px;
 }
 .rheinText {
     float: left;
@@ -72,4 +76,6 @@
     font-size: large;
     color: black;
     text-decoration: none;
+    width: 60%;
+    margin: 10px;
 }
