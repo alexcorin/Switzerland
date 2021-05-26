@@ -37,13 +37,13 @@ body{
 }
 
 #texts{
-    width: 75%;
+    width: 65%;
     margin:auto;
-    margin-bottom:150px;
-    background: rgba(255, 255, 255, 0.9);
-    border:solid red 2.5px;
+    margin-top: 50px;
+    margin-bottom:50px;
+    background: rgba(255, 255, 255);
     height:700px;
-    border-top:0px;
+    padding:40px;
 
 
 }
