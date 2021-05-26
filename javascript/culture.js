@@ -1,5 +1,5 @@
 function SelectCulture(){  
-    var backgrounds = ["img/food2.jpg", "img/watch1.jpeg", "img/food1.jpeg", "img/skiing1.jpg"];
+    var backgrounds = ["img/food2.jpg", "img/watch1.jpeg", "img/food1.jpeg", "img/skiing1.jpg", "img/food4.jpg"];
     var imgShown = document.body.style.backgroundImage;
     var newNumber = Math.floor(Math.random()*(backgrounds.length));
     document.body.style.background = 'url('+backgrounds[newNumber]+')';
