@@ -39,20 +39,35 @@
     padding:40px;
     background-color:white;
 }
+.titlesSights {
+    font-weight: bold;
+    font-family: 'Copperplate Gothic';
+    font-size: x-large;
+    color: black;
+    text-decoration: none;
+}
 .matterhorn {
     float: right;
-    height: 200px;
-    width: 35%;
+    height: 300px;
+    width: 50%;
+    display: inline-block;
+    margin-bottom: 6px;
+    margin-top: 6px;
 }
 .bernina {
-    float: left;
     height: 200px;
-    width: 35%;
+    width: 30%;
 }
 .rheinfall {
-    float: right;
     height: 200px;
-    width: 35%;
+    width: 30%;
+}
+
+#matterhornDiv{
+    float:left;
+    width:50%;
+    height:400px;
+    background-color:grey;
 }
 .matterhornText {
     float: left;
@@ -60,8 +75,10 @@
     font-size: large;
     color: black;
     text-decoration: none;
-    width: 60%;
-    margin: 10px;
+    width: 100%;
+    background-color:red;
+    margin-bottom:6px;
+    margin-top:6px;
 }
 .berninaText {
     float: right;
@@ -69,8 +86,8 @@
     font-size: large;
     color: black;
     text-decoration: none;
-    width: 60%;
-    margin: 10px;
+    width: 100%;
+    background-color: red;
 }
 .rheinText {
     float: left;
@@ -78,6 +95,6 @@
     font-size: large;
     color: black;
     text-decoration: none;
-    width: 60%;
-    margin: 10px;
+    width: 100%;
+    background-color: grey;
 }
