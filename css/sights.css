@@ -2,98 +2,55 @@
     background-color:lightgrey;
 }
 
-#Sights {
+#Sights{
     background-color: red;
     padding-top: 100%;
     padding-bottom: 40px;
     padding-left: 10px;
     padding-right: 10px;
 }
-#Home {
+#Home, #Traditions, #Culture {
     background-color:white;
     padding-top: 100%;
     padding-bottom: 35px;
     padding-left: 10px;
     padding-right: 10px;
 }
-#Traditions {
-    background-color: white;
-    padding-top: 100%;
-    padding-bottom: 35px;
-    padding-left: 10px;
-    padding-right: 10px;
-}
-#Culture {
-    background-color: white;
-    padding-top: 100%;
-    padding-bottom: 35px;
-    padding-left: 10px;
-    padding-right: 10px;
-}
-#page{
-    width:65%;
-    height:2000px;
+.page{
     margin:auto;
     margin-top:50px;
     margin-bottom:50px;
-    padding:40px;
-    background-color:white;
+    width:1420px;
+    height:4000px;
+    background-color: white;
 }
-.titlesSights {
+.pageText{
+    background-color:white;
+    margin:5px;
+}
+h1.pageText{
     font-weight: bold;
     font-family: 'Copperplate Gothic';
-    font-size: x-large;
+    font-size: xx-large;
     color: black;
     text-decoration: none;
 }
-.matterhorn {
-    float: right;
-    height: 300px;
-    width: 50%;
-    margin-bottom: 6px;
-    margin-top: 6px;
-}
-.bernina {
-    height: 200px;
-    width: 30%;
-}
-.rheinfall {
-    height: 200px;
-    width: 30%;
-}
-
-#matterhornDiv{
+p.pageText{
+    font-family: 'arvo';
+    font-size: large;
+    color: black;
+    text-decoration: none;
+    width:500px;
     float:left;
+}
+div.pageText{
+    margin:auto;
+    width:1000px;
+}
+img.pageText{
     width:50%;
-    height:400px;
-    background-color:grey;
 }
-.matterhornText {
-    float: left;
-    font-family: 'Copperplate Gothic';
-    font-size: large;
-    color: black;
-    text-decoration: none;
-    width: 100%;
-    background-color:red;
-    margin-bottom:6px;
-    margin-top:6px;
-}
-.berninaText {
-    float: right;
-    font-family: 'Copperplate Gothic';
-    font-size: large;
-    color: black;
-    text-decoration: none;
-    width: 100%;
-    background-color: red;
-}
-.rheinText {
-    float: left;
-    font-family: 'Copperplate Gothic';
-    font-size: large;
-    color: black;
-    text-decoration: none;
-    width: 100%;
-    background-color: grey;
+div.pageImage{
+    width:100%;
+    background-color:lightgrey;
 }
