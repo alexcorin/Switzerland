@@ -47,12 +47,14 @@ body{
 
 
 }
-#watches{
-    opacity: 100%;
-}
 #food{
-    opacity: 100%;
+    width: 75%;
+}
+#watches{
+    margin-top: 25px;
+    width:75%;
 }
 #sports{
-    opacity: 100%;
+    margin-top: 25px;
+    width:75%;
 }
