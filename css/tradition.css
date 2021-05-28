@@ -79,9 +79,9 @@ a:link {
     height: auto;
     margin:auto;
     text-align:left;
-    color: blue;
-    background-color:white;
+    color: red;
     overflow-wrap: break-word;
+    border:2px solid red;
 }
 
 .paragraph p {
@@ -94,16 +94,16 @@ a:link {
 
 
 #bg1 {
-    background-image: url(/img/mountain.jpeg);
+    background-image: url(/img/onion.jpeg);
 }
 
 
 #bg2 {
-    background-image: url(/img/devilbridge.jpeg);
+    background-image: url(/img/lantern.jpeg);
     min-height:85vh;
 }
 
-.bgsettings {
+.bgsettings {   
     min-height: 74vh;
     min-width: 100%;
     position: relative;
@@ -111,5 +111,4 @@ a:link {
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
-    opacity: 0.95;
 }
