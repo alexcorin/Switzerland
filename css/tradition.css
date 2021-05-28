@@ -75,6 +75,7 @@ a:link {
 }
 
 .paragraph {
+    font-family:"arvo";
     width: 60%;
     height: auto;
     position: relative;
