@@ -76,12 +76,11 @@ a:link {
 .paragraph {
     font-family:"arvo";
     width: 60%;
-    height: auto;
+    height: 50%;
     margin:auto;
     text-align:left;
-    color: red;
+    font-size:1.3em;
     overflow-wrap: break-word;
-    border:2px solid red;
 }
 
 .paragraph p {
@@ -92,6 +91,9 @@ a:link {
     margin: 0 0 10px 0;
 }
 
+.container{
+    border:3px solid red;
+}
 
 #bg1 {
     background-image: url(/img/onion.jpeg);
@@ -101,6 +103,10 @@ a:link {
 #bg2 {
     background-image: url(/img/lantern.jpeg);
     min-height:85vh;
+}
+
+#bg3 {
+    background-image: url(/img/cow.jpeg);
 }
 
 .bgsettings {   
