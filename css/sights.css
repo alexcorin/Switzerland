@@ -18,10 +18,11 @@
 }
 .page{
     margin:auto;
-    margin-top:50px;
+    margin-top:70px;
     margin-bottom:50px;
-    width:1420px;
-    height:4000px;
+    padding-top:1px;
+    width:1220px;
+    height:2500px;
     background-color: white;
 }
 .pageText{
@@ -37,7 +38,7 @@ h1.pageText{
 }
 p.pageText{
     font-family: 'arvo';
-    font-size: large;
+    font-size: 1.3em;
     color: black;
     text-decoration: none;
     width:500px;
@@ -45,12 +46,21 @@ p.pageText{
 }
 div.pageText{
     margin:auto;
+    margin-top:100px;
+    margin-bottom:100px;
     width:1000px;
 }
+video.pageText{
+    display:block;
+    margin:auto;
+    margin-top:100px;
+    margin-bottom:100px;
+}
 img.pageText{
-    width:50%;
+    width:47%;
+    border: solid red 4px;
 }
 div.pageImage{
     width:100%;
-    background-color:lightgrey;
+    height:350px;
 }
