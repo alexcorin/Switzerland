@@ -1,5 +1,5 @@
 body{
-    background-image: url("img2/food1.jpeg");
+    background-image: url("img2/startCulture.jpg");
     background-size: cover;
     background-repeat: no-repeat;
 }
@@ -36,7 +36,7 @@ body{
     padding-right:10px;
 }
 
-#texts{
+.texts{
     width: 65%;
     margin:auto;
     margin-top: 50px;
@@ -44,8 +44,8 @@ body{
     background: rgba(255, 255, 255);
     height:700px;
     padding:40px;
-
-
+    font-family: 'arvo';
+    font-size:1.3em;
 }
 #food{
     width: 75%;
@@ -58,3 +58,27 @@ body{
     margin-top: 25px;
     width:75%;
 }
+
+#text1{
+    height:290px;
+    padding-top:25px;
+}
+
+#text2{
+    height:240px;
+    padding-top:5px;
+    margin-top:100px;
+}
+
+#text3{
+    height:368px;
+    padding-top:5px;
+    margin-top:100px;
+}
+.smallBreak{
+    margin-top:8px;
+}
+.biggerBreak{
+    margin-top:15px;
+}
+
