@@ -1,7 +1,6 @@
 ﻿html, body {
     margin: 0;
-    padding: 0;
-    background-color: bisque;
+    padding: 0; 
     min-width: 100%;
     min-height: 100%;
 }
@@ -78,11 +77,10 @@ a:link {
     font-family:"arvo";
     width: 60%;
     height: auto;
-    position: relative;
-    left: 20%;
-    text-align: left;
-    color: red;
-    background-color: rgba(255,255,255, 0.6);
+    margin:auto;
+    text-align:left;
+    color: blue;
+    background-color:white;
     overflow-wrap: break-word;
 }
 
@@ -94,6 +92,7 @@ a:link {
     margin: 0 0 10px 0;
 }
 
+
 #bg1 {
     background-image: url(/img/mountain.jpeg);
 }
@@ -101,10 +100,11 @@ a:link {
 
 #bg2 {
     background-image: url(/img/devilbridge.jpeg);
+    min-height:85vh;
 }
 
 .bgsettings {
-    min-height: 100vh;
+    min-height: 74vh;
     min-width: 100%;
     position: relative;
     background-repeat: no-repeat;
