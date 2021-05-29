@@ -90,7 +90,6 @@ a:link {
 
 .container{
     border:3px solid red;
-
 }
 
 .bgsettings {
@@ -101,8 +100,6 @@ a:link {
     display: inline-block;
     overflow: hidden;
     vertical-align: bottom;
-    transition: all 0.5s;
-    -moz-transition: all 1s;
 }
 
 #bg1 {
@@ -114,29 +111,24 @@ a:link {
     background-size: cover;
     background-position: center;
     transition: all 1s;
-    -moz-transition:all 1s;
-    -webkit-transition:all 1s;
     vertical-align:middle;
 }
 
-    #bg1:before {
-        content: "";
-        display: none;
-        height: 100%;
-        width: 100%;
-        position: absolute;
-        top: 0;
-        left: 0;
-        transition: background-color 1s;
-        background-color: rgb(0, 0, 0, 0.75);
-        -moz-transition: all 1s;
-    }
+#bg1:before {
+    content: "";
+    display: none;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: rgb(0, 0, 0, 0.75);
+}
 
 .bgsettings:hover #bg1 {
     -moz-transform: scale(1.5);
     -webkit-transform: scale(1.5);
     transform: scale(1.5);
-    -moz-transition: all 1s;
 }
 
 .bgsettings:hover #bg1:before{
