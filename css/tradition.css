@@ -3,6 +3,7 @@
     padding: 0; 
     min-width: 100%;
     min-height: 100%;
+    scroll-behavior:smooth;
 }
 
 .topics{
@@ -37,8 +38,23 @@
     font-family: 'Copperplate Gothic';
 }
 
-.container{
-    border:3px solid red;
+.container {
+    border: 3px solid red;
+    position: relative;
+}
+
+.up {
+    height: 100px;
+    width: 100px;
+    position: absolute;
+    bottom: 10px;
+    left: 10px;
+    background: url(/img/button.jpeg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    border-radius: 10px;
+    cursor: pointer;
 }
 
 .bgsettings {
