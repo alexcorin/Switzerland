@@ -7,7 +7,7 @@ function SelectCulture(){
     document.body.style.backgroundSize = "cover";
 }
 function SelectFood(){
-    var backgrounds = ["img/food2.jpg","img/food1.jpeg", "img/food4.jpg"];
+    var backgrounds = ["img/food2.jpg","img/food1.jpeg", "img/food3.jpg","img/food2.jpg","img/food1.jpeg","img/food2.jpg","img/food1.jpeg","img/food2.jpg","img/food1.jpeg"];
     var imgShown = document.body.style.backgroundImage;
     var newNumber = Math.floor(Math.random()*(backgrounds.length));
     document.body.style.background = 'url('+backgrounds[newNumber]+')';
