@@ -7,7 +7,7 @@ function SelectCulture(){
     document.body.style.backgroundSize = "cover";
 }
 function SelectFood(){
-    var backgroundsFood = ["img/food2.jpg", "img/food2.jpg","img/food2.jpg","img/food2.jpg","img/food2.jpg","img/food2.jpg","img/food2.jpg","img/food2.jpg","img/food2.jpg","img/food2.jpg","img/food2.jpg","img/food2.jpg","img/food2.jpg","img/food2.jpg", "img/food3.jpg"];
+    var backgroundsFood = ["img/food2.jpg"];
     var imgShown = document.body.style.backgroundImage;
     var newNumber = Math.floor(Math.random()*(backgroundsFood.length));
     document.body.style.background = 'url('+backgroundsFood[newNumber]+')';
@@ -36,16 +36,16 @@ window.addEventListener('scroll', () => {
     const scrolled = window.scrollY;
     console.log(scrolled);
 
-    if (scrolled <= 220 && scrolled >= 0){
+    if (scrolled <= 240 && scrolled >= 0){
         SelectFood();
     }
 
-    if (scrolled <= 500 && scrolled >= 220){
-        SelectWatch();
+    if (scrolled <= 700 && scrolled >= 240){
+        SelectSport();
     }
 
-    if (scrolled <= 800 && scrolled >= 500){
-        SelectSport();
+    if (scrolled <= 800 && scrolled >= 720){
+        SelectWatch();
     }
     
 });
