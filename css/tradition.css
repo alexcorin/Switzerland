@@ -6,6 +6,32 @@
     scroll-behavior:smooth;
 }
 
+.img1 {
+    background-image: url(./img/onion.jpeg);
+}
+
+.img2 {
+    background-image: url(./img/lantern.jpeg);
+}
+
+.img3 {
+    background-image: url(./img/cow.jpeg);
+}
+
+.up {
+    height: 100px;
+    width: 100px;
+    position: absolute;
+    bottom: 10px;
+    left: 10px;
+    background: url(./img/button.jpeg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
 .topics{
     background-color: white;
     padding-top: 100%;
@@ -41,20 +67,6 @@
 .container {
     border: 3px solid red;
     position: relative;
-}
-
-.up {
-    height: 100px;
-    width: 100px;
-    position: absolute;
-    bottom: 10px;
-    left: 10px;
-    background: url(./img/button.jpeg);
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center;
-    border-radius: 10px;
-    cursor: pointer;
 }
 
 .bgsettings {
@@ -100,23 +112,4 @@
 
 .bgsettings:hover .bg:before {
     opacity: 0.5;
-}
-
-.img1 {
-    background-image: url(./img/onion.jpeg);
-}
-
-.img2 {
-    background-image: url(./img/lantern.jpeg);
-}
-
-.img3 {
-    background-image: url(./img/cow.jpeg);
-}
-
-.preload {
-    background-image: 
-        url(./img/cow.jpeg), 
-        url(./img/lantern.jpeg), 
-        url(./img/onion.jpeg);
 }
