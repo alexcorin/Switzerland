@@ -7,15 +7,15 @@
 }
 
 .pic1 {
-    background-image: url("img/onion.jpeg");
+    background-image: url("/img/onion.jpeg");
 }
 
 .pic2 {
-    background-image: url("img/lantern.jpeg");
+    background-image: url("/img/lantern.jpeg");
 }
 
 .pic3 {
-    background-image: url("img/cow.jpeg");
+    background-image: url("/img/cow.jpeg");
 }
 
 .up {
