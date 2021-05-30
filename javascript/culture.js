@@ -36,7 +36,7 @@ window.addEventListener('scroll', () => {
     const scrolled = window.scrollY;
     console.log(scrolled);
 
-    if (scrolled <= 240 && scrolled >= 0){
+    if (scrolled <= 220 && scrolled >= 0){
         SelectFood();
     }
 
@@ -44,8 +44,13 @@ window.addEventListener('scroll', () => {
         SelectSport();
     }
 
-    if (scrolled <= 800 && scrolled >= 740){
+    if (scrolled <= 800 && scrolled >= 760){
         SelectWatch();
     }
     
 });
+
+function buttonUp() {
+    document.body.scrollTop = 0;
+    document.documentElement.scrollTop = 0;
+}
