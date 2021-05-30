@@ -6,15 +6,15 @@
     scroll-behavior:smooth;
 }
 
-.img1 {
+.pic1 {
     background-image: url("./img/onion.jpeg");
 }
 
-.img2 {
+.pic2 {
     background-image: url("./img/lantern.jpeg");
 }
 
-.img3 {
+.pic3 {
     background-image: url("./img/cow.jpeg");
 }
 
@@ -24,7 +24,7 @@
     position: absolute;
     bottom: 10px;
     left: 10px;
-    background: url("./img/button.jpeg");
+    background-image: url("./img/button.jpeg");
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
