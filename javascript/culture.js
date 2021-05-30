@@ -7,29 +7,45 @@ function SelectCulture(){
     document.body.style.backgroundSize = "cover";
 }
 function SelectFood(){
-    var backgrounds = ["img/food2.jpg","img/food1.jpeg", "img/food3.jpg","img/food2.jpg","img/food1.jpeg","img/food2.jpg","img/food1.jpeg","img/food2.jpg","img/food1.jpeg"];
+    var backgroundsFood = ["img/food2.jpg", "img/food2.jpg","img/food2.jpg","img/food2.jpg","img/food2.jpg","img/food2.jpg","img/food2.jpg","img/food2.jpg","img/food2.jpg","img/food2.jpg","img/food2.jpg","img/food2.jpg","img/food2.jpg","img/food2.jpg", "img/food3.jpg"];
     var imgShown = document.body.style.backgroundImage;
-    var newNumber = Math.floor(Math.random()*(backgrounds.length));
-    document.body.style.background = 'url('+backgrounds[newNumber]+')';
+    var newNumber = Math.floor(Math.random()*(backgroundsFood.length));
+    document.body.style.background = 'url('+backgroundsFood[newNumber]+')';
     document.body.style.backgroundRepeat = "no-repeat";
     document.body.style.backgroundSize = "cover";
 }
 
 function SelectWatch(){
-    var backgrounds = ["img/watch1.jpeg"];
+    var backgroundsWatch = ["img/watch1.jpeg"];
     var imgShown = document.body.style.backgroundImage;
-    var newNumber = Math.floor(Math.random()*(backgrounds.length));
-    document.body.style.background = 'url('+backgrounds[newNumber]+')';
+    var newNumber = Math.floor(Math.random()*(backgroundsWatch.length));
+    document.body.style.background = 'url('+backgroundsWatch[newNumber]+')';
     document.body.style.backgroundRepeat = "no-repeat";
     document.body.style.backgroundSize = "cover";
 }
 
 function SelectSport(){
-    var backgrounds = ["img/skiing1.jpg"];
+    var backgroundsSport = ["img/skiing1.jpg"];
     var imgShown = document.body.style.backgroundImage;
-    var newNumber = Math.floor(Math.random()*(backgrounds.length));
-    document.body.style.background = 'url('+backgrounds[newNumber]+')';
+    var newNumber = Math.floor(Math.random()*(backgroundsSport.length));
+    document.body.style.background = 'url('+backgroundsSport[newNumber]+')';
     document.body.style.backgroundRepeat = "no-repeat";
     document.body.style.backgroundSize = "cover";
 }
-window.onload = changeBg;
+window.addEventListener('scroll', () => {
+    const scrolled = window.scrollY;
+    console.log(scrolled);
+
+    if (scrolled <= 220 && scrolled >= 0){
+        SelectFood();
+    }
+
+    if (scrolled <= 500 && scrolled >= 220){
+        SelectWatch();
+    }
+
+    if (scrolled <= 800 && scrolled >= 500){
+        SelectSport();
+    }
+    
+});
