@@ -47,16 +47,64 @@ body{
     font-family: 'arvo';
     font-size:1.3em;
 }
+
 #food{
+    display: inline;
     width: 75%;
 }
-#watches{
-    margin-top: 25px;
-    width:75%;
+
+#food p, #food h2{
+    width: 70%;
+    float:left;
 }
+
+#photoFood{
+    height:225px;
+    width:275px;
+    margin-left:60px;
+    border: solid red 2.5px;
+    margin-top:20px;
+}
+
 #sports{
+    display:inline;
+    margin-top:25px;
+}
+
+#sports h2, #sports p{
+    float:left;
+    width:70%;
+}
+
+#sports h2{
     margin-top: 25px;
-    width:75%;
+}
+
+#photoSport{
+    height:225px;
+    width:275px;
+    border: solid red 2.5px;
+    margin-top:75px;
+    margin-left: 65px;
+}
+
+#watches{
+    display:inline;
+    margin-top: 25px;
+}
+
+#watches p, #watches h2{
+    margin-top: 25px;
+    width: 70%;
+    float:left;
+}
+
+#photoWatch{
+    height:225px;
+    width:275px;
+    margin-left:60px;
+    border: solid red 2.5px;
+    margin-top:20px;
 }
 
 #text1{
@@ -66,7 +114,7 @@ body{
 }
 
 #text2{
-    height:368px;
+    height:360px;
     padding-top:5px;
     margin-top:125px;
 }
@@ -74,13 +122,16 @@ body{
 #text3{
     height:240px;
     padding-top:5px;
-    margin-top:125px;
-    margin-bottom:100px;
+    margin-top:150px;
+    margin-bottom:150px;
 }
+
 .smallBreak{
     margin-top:8px;
+    text-align: justify;
 }
 .biggerBreak{
     margin-top:15px;
+    text-align: justify;
 }
 

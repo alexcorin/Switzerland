@@ -40,11 +40,11 @@ window.addEventListener('scroll', () => {
         SelectFood();
     }
 
-    if (scrolled <= 700 && scrolled >= 240){
+    if (scrolled <= 720 && scrolled >= 240){
         SelectSport();
     }
 
-    if (scrolled <= 800 && scrolled >= 720){
+    if (scrolled <= 800 && scrolled >= 740){
         SelectWatch();
     }
     
