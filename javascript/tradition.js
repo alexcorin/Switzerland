@@ -1,12 +1,6 @@
-/*let images = ["img/matterhorn.jpeg", "img/devilbridge.jpeg"];
+var upButton = document.getElementsByClassName("up");
 
-function RandomPic() {
-    var random = Math.floor(Math.random() * images.length);
-    document.getElementById("pic").src = images[random];
+function buttonUp() {
+    document.body.scrollTop = 0;
+    document.documentElement.scrollTop = 0;
 }
-
-(function timer() {
-    RandomPic();
-    setInterval(RandomPic, 3000);
-}());
-*/

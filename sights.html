@@ -8,6 +8,7 @@
     <link rel="stylesheet" href="css/sights.css" />
 </head>
 <body>
+    <script src="javascript/sights.js"></script>
     <header class="header">
         <nav class="nav" role="navigation">
             <p class="navSeperator">|</p>
@@ -22,6 +23,10 @@
         </nav>
     </header>
     <div class="page">
+        <div class="pageText">
+            <h1 id="introTitle">Switzerlands Sights</h1>
+            <p id="introText" class="pageText">For tourists travelling to Switzerland, the choice of where to go might seem like a though one. But the following article will help with just that! Here we will cover our top three sights we belive you should visit when traveling to Switzerland.</p>
+        </div>
         <div class="pageText">
             <h1 class="pageText">The Matternhorn</h1>
             <p class="pageText">The Matterhorn is the absolute spot for thrillseekers visiting Switzerland! 
@@ -54,9 +59,12 @@
             <div class="pageImage">
                 <img class="pageText" src="img/bernina.jpg"/>
             </div>
+            <p class="pageText">The following video below will take a more detailed look at the Bernina Railway.</p>
             <video class="pageText" controls width="900" autoplay muted>
                 <source src="video/bernina.mp4">
+                Your browser does not support video playback.
             </video>
+            
             
         </div>
 
@@ -81,7 +89,7 @@
         
     </div>
     <footer>
-        
+        <button onclick="buttonUp()">Back to top</button>
     </footer>
 </body>
 </html>

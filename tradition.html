@@ -4,7 +4,7 @@
 <head>
     <meta charset="utf-8" />
     <title>Tradition</title>
-    <link rel="stylesheet" href="css/tradition.css">
+    <link rel="stylesheet" href="css/tradition.css" type="text/css">
     <link rel="stylesheet" href="css/universal.css">
 
 </head>
@@ -12,18 +12,22 @@
     <header class="header">
         <nav class="nav" role="navigation">
             <p class="navSeperator">|</p>
-            <a href="index.html" id="Home" class="navLinks">Home</a>
+            <a href="index.html" class="topics navLinks">Home</a>
             <p class="navSeperator">|</p>
-            <a href="culture.html" id="Culture" class="navLinks"> Culture</a>
+            <a href="culture.html" class="topics navLinks"> Culture</a>
             <p class="navSeperator">|</p>
-            <a href="tradition.html" id="Traditions" class="navLinks"> Traditions</a>
+            <a href="tradition.html" class="topics traditions navLinks" > Traditions</a>
             <p class="navSeperator">|</p>
-            <a href="sights.html" id="Sights" class="navLinks"> Sights</a>
+            <a href="sights.html" class="topics navLinks"> Sights</a>
             <p class="navSeperator">|</p>
         </nav>
     </header>
 
-    <div id="bg1" class="bgsettings">
+    <div class="bgsettings">
+        <div class="bg pic1"></div>
+    </div>
+
+    <div class="container">
         <div class="paragraph">
             <h2>The Zibelemärit</h2>
             <p>
@@ -33,24 +37,46 @@
                 There are many legends about the beginning of this tradition.
                 One says that during the 15th century the first Zibelmärit was a part of another market called “Martini market”, which did not sell onions and so a separate market was created.
                 Another legend says that after Bern's great fire of 1405, people of Freiburg helped the Bernese people after many houses were burnt and people killed.
-                As a sign of gratitude the people of Freiburg were allowed to sell onions in Bern every autumn
+                As a sign of gratitude the people of Freiburg were allowed to sell onions in Bern every autumn.
             </p>
         </div>
     </div>
 
-    <div id="bg2" class="bgsettings">
+    <div class="bgsettings">
+        <div class="bg pic2"></div>
+    </div>
+
+    <div class="container">
         <div class="paragraph">
             <h2>Basel Fasnacht</h2>
             <p>
-                Are you perhaps a night owl or an early bird interested in festivals? 
-                Then Basel Fasnacht might be the swiss celebration just for you. 
-                This festival starts at 4 am the first Monday after Ash Wednesday in pitch black. 
-                Follow the sea of hand-painted lanterns that illuminate the city centre and witness the thousands of drummers, flautists and brass bands accompanying them. 
+                Are you perhaps a night owl or an early bird interested in festivals?
+                Then Basel Fasnacht might be the swiss tradition just for you.
+                This festival starts at 4 am the first Monday after Ash Wednesday in pitch black.
+                Follow the sea of hand-painted lanterns that illuminate the city centre and witness the thousands of drummers, flautists and brass bands accompanying them.
                 Enjoy the scenery of the many disguised individuals as the musicians fill the streets with music.
             </p>
         </div>
     </div>
+    <div class="bgsettings">
+        <div class="bg pic3"></div>
+    </div>
 
+    <div class="container">
+        <div class="paragraph">
+            <h2>Cattle descent</h2>
+            <p>
+                If you enjoy the calmness and the scenery of nature, then cattle descent then this tradition is the right one for you.
+                Between mid-September and mid-October cows with flower crowns, but also sheep and goats descend from the alpine pastures making their way back to the valley.
+                The festivities were originally celebrated as a thanksgiving for summer without accidents.
+                Nowadays the tradition is celebrated with a festival with music, market stalls and dishes as the animals descend.
+            </p>
+        </div>
+
+        <button onclick="buttonUp()" class="up">
+            <div class="btnImg"></div>
+        </button>
+    </div>
     <script src="javascript/tradition.js"></script>
 </body>
 </html>
