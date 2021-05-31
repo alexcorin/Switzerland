@@ -2,7 +2,7 @@
     background-image: url("img2/frontImage.jpg");
     background-size:1920px;
     background-repeat:no-repeat;
-    
+    background-attachment:fixed;
 }
 
 #indexFront{
