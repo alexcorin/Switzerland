@@ -55,6 +55,13 @@
     padding-right: 10px;
 }
 
+.quote{
+    height:20%;
+    width:60%;
+    margin:auto;
+    margin-top:10%;
+}
+
 .containerAll {
     height:auto;
     width:80%;
@@ -80,21 +87,21 @@
 }
 
 .sights{
-    background: url("img/berninaFront.jpg");
+    background: url("../img/berninaFront.jpg");
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
 }
 
 .culture{
-    background: url("img/introFood.jpg");
+    background: url("../img/introFood.jpg");
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
 }
 
 .traditions {
-    background: url("img/lanterns2.jpeg");
+    background: url("../img/lanterns2.jpeg");
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
