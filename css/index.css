@@ -1,32 +1,42 @@
 ﻿body {
+    min-height:100%;
+    min-width:100%;
+}
+
+.containerFront{
+    height:100vh;
+    width:100%;
+    margin:0;
+    position:relative;
+}
+
+.pic1 {
+    width: 100%;
+    height: 100%;
     background-image: url("img2/frontImage.jpg");
-    background-size:1920px;
-    background-repeat:no-repeat;
-    background-attachment:fixed;
+    background-repeat: no-repeat;
+    background-position:center;
+    background-size:cover;
+    background-attachment: fixed;
 }
 
-#indexFront{
-    width:1440px;
-    height:200px;
-    margin:auto;
-    margin-left:200px;
-    padding-top:150px;
-}
-
-#indexTitle {
+.indexTitle {
+    position:absolute;
+    top:23%;
     color: white;
     font-weight: bold;
     font-family: 'Copperplate Gothic';
-    font-size: 100px;
+    font-size: 10vw;
+    display:inline-block;
+    height:auto;
     text-decoration: none;
 }
 
 #lowerFront {
-    width:1920px;
-    height:1000px;
-    margin-top:300px;
-    background-color:white;
-    background-image:url("")
+    width:80%;
+    height:30vh;
+    margin:0 auto 0 auto;
+    text-align:center;
 }
 
 #Sights, #Traditions, #Culture{
@@ -43,4 +53,109 @@
     padding-bottom: 40px;
     padding-left: 10px;
     padding-right: 10px;
+}
+
+.containerAll {
+    height:auto;
+    width:80%;
+    margin:auto;
+    display:flex;
+}
+.containerAll > div{
+    margin:0 auto 0 auto;
+}
+
+.container {
+    height: 30vh;
+    width: 23%;
+    overflow: hidden;
+}
+
+.content {
+    position: relative;
+    margin: auto;
+    width:100%;
+    height:100%;
+    overflow: hidden;
+}
+
+.sights{
+    background: url("/img/berninaFront.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.culture{
+    background: url("/img/introFood.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.traditions {
+    background: url("/img/lanterns2.jpeg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.overlay {
+    background: rgba(0,0,0,0.7);
+    position: absolute;
+    width: 100%;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    opacity: 0;
+    -webkit-transition: all 0.4s ease-in-out 0s;
+    -moz-transition: all 0.4s ease-in-out 0s;
+    transition: all 0.4s ease-in-out 0s;
+}
+
+.content:hover .overlay {
+    opacity: 1;
+}
+
+.fade {
+    position: absolute;
+    text-align: center;
+    width: 100%;
+    top: 50%;
+    left: 50%;
+    opacity: 0;
+    -webkit-transform: translate(-50%, -50%);
+    -moz-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    -webkit-transition: all 0.3s ease-in-out;
+    -moz-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+}
+
+.content:hover .fade{
+    top: 50%;
+    left: 50%;
+    opacity: 1;
+}
+
+.text {
+    color: #fff;
+    font-size: 0.8em;
+}
+
+.fadeIn-bottom {
+    top: 80%;
+}
+
+.fadeIn-top {
+    top: 20%;
+}
+
+.fadeIn-left {
+    left: 20%;
+}
+
+.fadeIn-right {
+    left: 80%;
 }
