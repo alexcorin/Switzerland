@@ -80,21 +80,21 @@
 }
 
 .sights{
-    background: url("/img/berninaFront.jpg");
+    background: url("img/berninaFront.jpg");
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
 }
 
 .culture{
-    background: url("/img/introFood.jpg");
+    background: url("img/introFood.jpg");
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
 }
 
 .traditions {
-    background: url("/img/lanterns2.jpeg");
+    background: url("img/lanterns2.jpeg");
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
