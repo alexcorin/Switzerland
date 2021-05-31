@@ -6,6 +6,10 @@
     scroll-behavior:smooth;
 }
 
+:root{
+    --opacity:0;
+}
+
 .pic1 {
     background-image: url("../img/onion.jpeg");
 }
@@ -19,17 +23,39 @@
 }
 
 .up {
-    height: 100px;
-    width: 100px;
+    height: 60px;
+    width: 60px;
     position: absolute;
     bottom: 10px;
-    left: 10px;
+    right: 10px;
     background-image: url("../img/button.jpeg");
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
     border-radius: 10px;
     cursor: pointer;
+    transition: all 0.2s;
+    -webkit-transition: all 0.2s;
+    -moz-transition: all 0.2s;
+}
+
+.up:before {
+    content: "";
+    display: block;
+    height: 100%;
+    width: 100%;
+    border-radius:8px;  
+    opacity: var(--opacity);
+    background-color: rgb(0, 0, 0, 0.75);
+    transition: all 0.5s;
+    -webkit-transition: all 0.5s;
+    -moz-transition: all 0.5s;
+}
+
+.up:hover {
+    -moz-transform: scale(0.8);
+    -webkit-transform: scale(0.8);
+    transform: scale(0.8);
 }
 
 .topics{
@@ -53,15 +79,19 @@
     width: 60%;
     height: 50%;
     margin:auto;
+    padding:5px;
     text-align:left;
     font-size:1.3em;
-    overflow-wrap: break-word;
 }
 
 .paragraph h2 {
     margin: 0 0 10px 0;
     font-weight: bold;
     font-family: 'Copperplate Gothic';
+}
+
+.tradtitle{
+    font-size:1.8em;
 }
 
 .container {
