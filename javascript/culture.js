@@ -50,7 +50,7 @@ window.addEventListener('scroll', () => {
         SelectSport();
     }
 
-    if (scrolled <= 800 && scrolled >= 740){
+    if (scrolled <= 1000 && scrolled >= 740){
         SelectWatch();
     }
     
