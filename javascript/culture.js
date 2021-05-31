@@ -1,11 +1,6 @@
-function SelectCulture(){  
-    var backgrounds = ["img/food2.jpg", "img/watch1.jpeg", "img/food1.jpeg", "img/skiing1.jpg", "img/food4.jpg"];
-    var imgShown = document.body.style.backgroundImage;
-    var newNumber = Math.floor(Math.random()*(backgrounds.length));
-    document.body.style.background = 'url('+backgrounds[newNumber]+')';
-    document.body.style.backgroundRepeat = "no-repeat";
-    document.body.style.backgroundSize = "cover";
-}
+
+/* De mest effektiva sättet jag hitta för att ändra bakgrunden för body*/
+
 function SelectFood(){
     var backgroundsFood = ["img/food2.jpg"];
     var imgShown = document.body.style.backgroundImage;
@@ -38,6 +33,9 @@ function SelectSport(){
     document.body.style.backgroundAttachment = "fixed";
 
 }
+
+/* Kollar vart de är på sidan och ändrar bakgrunden */
+
 window.addEventListener('scroll', () => {
     const scrolled = window.scrollY;
     console.log(scrolled);

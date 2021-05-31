@@ -9,6 +9,7 @@
 </head>
 <body>
     <script src="javascript/sights.js"></script>
+    <!--Navbar-->
     <header class="header">
         <nav class="nav" role="navigation">
             <p class="navSeperator">|</p>
@@ -23,6 +24,7 @@
         </nav>
     </header>
     <div class="page">
+        <!--Varje div på denna indentering/tabb är för att sortera upp hemsidan för att lättare flytta runt olika "block" av texter. Används även för att ge sidan sin struktur-->
         <div class="pageText">
             <h1 id="introTitle">Switzerlands Sights</h1>
             <p id="introText" class="pageText">For tourists travelling to Switzerland, the choice of where to go might seem like a though one. But the following article will help with just that! Here we will cover our top three sights we belive you should visit when traveling to Switzerland.</p>
@@ -56,13 +58,14 @@
                 that might sound a bit shorter than expected. But don’t get fooled by the rather short 
                 distance, this ride will still take over 4 hours to complete!
             </p>
+            <!--Används endast för att få bilden att ej endra form vid upp/nedskalning av hemsidan.-->
             <div class="pageImage">
                 <img class="pageText" src="img/bernina.jpg"/>
             </div>
             <p class="pageText">The following video below will take a more detailed look at the Bernina Railway.</p>
             <video class="pageText" controls width="900" autoplay muted>
                 <source src="video/bernina.mp4">
-                Your browser does not support video playback.
+                Your browser does not support video playback.<!--Ifall videon inte skulle laddas.-->
             </video>
             
             
@@ -88,6 +91,7 @@
 
         
     </div>
+    <!--Footer och knapp upp-->
     <footer>
         <button id="buttonUp" onclick="buttonUp()"> 🠕 To the Top 🠕 </button>
     </footer>
