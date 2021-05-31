@@ -5,11 +5,12 @@
     min-height: 100%;
     scroll-behavior:smooth;
 }
-
+/*Variabel för opacity*/
 :root{
     --opacity:0;
 }
 
+/*Bakgrundsbilder*/
 .pic1 {
     background-image: url("../img/onion.jpeg");
 }
@@ -22,23 +23,25 @@
     background-image: url("../img/cow.jpeg");
 }
 
+/*Uppknappen*/
 .up {
-    height: 60px;
-    width: 60px;
+    height: 10vh;
+    width: 5%;
     position: absolute;
-    bottom: 10px;
-    right: 10px;
+    bottom: -15px;
+    right:0;
     background-image: url("../img/button.jpeg");
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
     border-radius: 10px;
     cursor: pointer;
-    transition: all 0.2s;
-    -webkit-transition: all 0.2s;
-    -moz-transition: all 0.2s;
+    transition: all 0.1s;
+    -webkit-transition: all 0.1s;
+    -moz-transition: all 0.1s;
 }
 
+/*Animation för uppknappen*/
 .up:before {
     content: "";
     display: block;
@@ -47,17 +50,19 @@
     border-radius:8px;  
     opacity: var(--opacity);
     background-color: rgb(0, 0, 0, 0.75);
-    transition: all 0.5s;
-    -webkit-transition: all 0.5s;
-    -moz-transition: all 0.5s;
+    transition: all 0.7s;
+    -webkit-transition: all 0.7s;
+    -moz-transition: all 0.7s;
 }
 
-.up:hover {
+/*När man klickar på knappen minskar den*/
+.up:active {
     -moz-transform: scale(0.8);
     -webkit-transform: scale(0.8);
     transform: scale(0.8);
 }
 
+/*Rubrikerna*/
 .topics{
     background-color: white;
     padding-top: 100%;
@@ -73,7 +78,8 @@
     padding-left: 10px;
     padding-right: 10px;
 }
-    
+
+/*Paragraferna*/
 .paragraph {
     font-family:"arvo";
     width: 60%;
@@ -94,11 +100,13 @@
     font-size:1.8em;
 }
 
+/*Div för paragraferna*/
 .container {
     border: 3px solid red;
     position: relative;
 }
 
+/*Parent element för bakgrundsbilderna*/
 .bgsettings {
     height: 74vh;
     width: 100%;
@@ -109,6 +117,7 @@
     vertical-align: bottom;
 }
 
+/*Egenskaper för bakgrundsbilderna*/
 .bg {
     width: 100%;
     height: 100%;
@@ -122,6 +131,7 @@
     -moz-transition: all 1s;
 }
 
+/*Animation för bakgrundsbilderna*/
 .bg:before {   
     content: "";
     display: block;
@@ -134,12 +144,14 @@
     -moz-transition:all 1s;
 }
 
+/*Ändrar storlek*/
 .bgsettings:hover .bg {
     -moz-transform: scale(1.3);
     -webkit-transform: scale(1.3);
     transform: scale(1.3);
 }
 
+/*Ändrar opacity*/
 .bgsettings:hover .bg:before {
     opacity: 0.5;
 }
