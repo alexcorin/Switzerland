@@ -13,23 +13,7 @@ body{
     padding-right:10px;
 }
 
-#Home{
-    background-color: white;
-    padding-top: 100%;
-    padding-bottom:35px;
-    padding-left:10px;
-    padding-right:10px;
-}
-
-#Traditions{
-    background-color: white;
-    padding-top: 100%;
-    padding-bottom:35px;
-    padding-left:10px;
-    padding-right:10px;
-}
-
-#Sights{
+#Home, #Traditions, #Sights{
     background-color: white;
     padding-top: 100%;
     padding-bottom:35px;
