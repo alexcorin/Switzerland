@@ -75,3 +75,10 @@ div.pageImage{
 #introText{
     width:995px;
 }
+
+#buttonUp{
+    border-radius: 30px;
+    height:40px;
+    margin-top: 2.5px;
+    margin-left:25px;
+}
