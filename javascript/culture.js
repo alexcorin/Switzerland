@@ -13,6 +13,9 @@ function SelectFood(){
     document.body.style.background = 'url('+backgroundsFood[newNumber]+')';
     document.body.style.backgroundRepeat = "no-repeat";
     document.body.style.backgroundSize = "cover";
+    document.body.style.backgroundAttachment = "fixed";
+
+
 }
 
 function SelectWatch(){
@@ -22,6 +25,7 @@ function SelectWatch(){
     document.body.style.background = 'url('+backgroundsWatch[newNumber]+')';
     document.body.style.backgroundRepeat = "no-repeat";
     document.body.style.backgroundSize = "cover";
+    document.body.style.backgroundAttachment = "fixed";
 }
 
 function SelectSport(){
@@ -31,6 +35,8 @@ function SelectSport(){
     document.body.style.background = 'url('+backgroundsSport[newNumber]+')';
     document.body.style.backgroundRepeat = "no-repeat";
     document.body.style.backgroundSize = "cover";
+    document.body.style.backgroundAttachment = "fixed";
+
 }
 window.addEventListener('scroll', () => {
     const scrolled = window.scrollY;

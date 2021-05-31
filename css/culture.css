@@ -2,6 +2,7 @@ body{
     background-image: url("img2/food2.jpg");
     background-size: cover;
     background-repeat: no-repeat;
+    background-attachment: fixed;
 }
 
 #Culture {
