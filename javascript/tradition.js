@@ -6,7 +6,7 @@ function buttonUp() {
 }
 
 window.onscroll = function () {
-    if ((window.innerHeight + window.pageYOffset) >= document.body.offsetHeight) {
+    if ((window.innerHeight + window.pageYOffset) >= document.body.offsetHeight - 100) {
         btn.style.setProperty("--opacity", "0.5");
     }
     else {
