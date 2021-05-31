@@ -20,7 +20,7 @@ body{
     padding-left:10px;
     padding-right:10px;
 }
-
+/* Allmänna saker som definerar varje text ruta*/
 .texts{
     width: 1220px;
     margin:auto;
@@ -87,6 +87,8 @@ body{
     margin-top:20px;
 }
 
+
+/* Ändrar storleken på de olika text rutorna*/
 #text1{
     height:280px;
     padding-top:25px;
@@ -106,6 +108,7 @@ body{
     margin-bottom:150px;
 }
 
+/* Används för att "centrera" texten så att den blir snyggare*/
 .smallBreak{
     margin-top:8px;
     text-align: justify;
@@ -115,6 +118,8 @@ body{
     text-align: justify;
 }
 
+
+/* För knappen*/
 #buttonUp{
     border-radius: 30px;
     height:40px;
