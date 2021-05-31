@@ -51,7 +51,7 @@ body{
     margin-top:20px;
 }
 
-#sports{
+#sports, #watches{
     display:inline;
     margin-top:25px;
 }
@@ -71,11 +71,6 @@ body{
     border: solid red 2.5px;
     margin-top:75px;
     margin-left: 65px;
-}
-
-#watches{
-    display:inline;
-    margin-top: 25px;
 }
 
 #watches p, #watches h2{
